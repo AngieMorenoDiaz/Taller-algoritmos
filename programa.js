@@ -38,9 +38,9 @@ function media(){
 }
 
 function calcular_tiempo (){
-    let v1= parseInt (documen.getElementById ("x").value);
-    let v2= parseInt (documen.getElementById ("y").value);
-    let d= parseInt (documen.getElementById ("x").value);
+    let v1= parseInt (document.getElementById ("x").value);
+    let v2= parseInt (document.getElementById ("y").value);
+    let d= parseInt (document.getElementById ("x").value);
 
     let t=d/(v1-v2);
     let tf=t*60
